@@ -1,8 +1,8 @@
 {
   "name": "xp-icon",
   "license": "BSD-3-Clause",
-  "version": "0.8.4",
-  "description": "This element is used to display an icon.",
+  "version": "0.8.5",
+  "description": "A custom element able to display an icon",
   "homepage": "http://www.expandjs.com/elements/xp-icon",
   "authors": [
     "Giuliano Rullo <g.rullo@expandjs.com>",
