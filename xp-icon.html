@@ -29,33 +29,35 @@ It can be used in conjunction with xp-iconset.
 
 <dom-module id="xp-icon">
 
-    <style>
-        :host {
-            display: inline-block;
-            height: 24px;
-            overflow: visible;
-            width: 24px;
-        }
-
-        :host([empty]) {
-            display: none !important;
-        }
-
-        :host #xpIconWrapper,
-        :host #xpIconWrapper * {
-            border-radius: inherit;
-            height: 100%;
-            width: 100%;
-        }
-
-        :host svg {
-            display: block;
-            fill: currentcolor;
-        }
-    </style>
-
     <template>
+
+        <style>
+            :host {
+                display: inline-block;
+                height: 24px;
+                overflow: visible;
+                width: 24px;
+            }
+
+            :host([empty]) {
+                display: none !important;
+            }
+
+            :host #xpIconWrapper,
+            :host #xpIconWrapper * {
+                border-radius: inherit;
+                height: 100%;
+                width: 100%;
+            }
+
+            :host svg {
+                display: block;
+                fill: currentcolor;
+            }
+        </style>
+
         <div id="xpIconWrapper"></div>
+
     </template>
 
     <script>
