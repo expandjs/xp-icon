@@ -1,3 +1,3 @@
 # xp-icon
 
-See the [`documentation page`](http://expandjs.com/elements/xp-icon) for more information.
+This repository **is deprecated**. Use [`xp-icon-behavior`](https://github.com/expandjs/xp-icon-behavior) instead.
